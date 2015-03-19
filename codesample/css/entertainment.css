@@ -1,0 +1,251 @@
+/* This file is used to control entertainment page layout.
+*  Also, the same file used events layout inner pages.
+*/
+
+#content p,
+.description a,
+.calendar a,
+.toplink a,
+#promos a {
+  font-family:Arial,sans-serif;
+}
+#content p {
+  color:#ccc;
+  font-size:14px;
+  line-height:20px;
+}
+h3 {
+  font-size:24px;
+  line-height:28px;
+  text-transform:uppercase;
+}
+h4 {
+  color:#fff;
+  font-size:18px;
+  margin:10px 0;
+  text-transform:uppercase;
+}
+
+#details-header {
+  margin:10px 0 0 0;
+  text-transform:uppercase;
+}
+#details-header h2 {
+  font-size:18px;
+  margin:0 0 10px 0;
+}
+#details-header img {
+  margin-bottom:20px;
+}
+.subtitle {
+  margin:30px 0;
+}
+.subtitle h3 {
+  font-size:21px;
+  line-height:24px;
+  margin:0 auto;
+  text-align:center;
+  text-transform:none;
+  width:80%;
+}
+#logo110 {
+  float:right;
+}
+.description {
+  margin-top:30px;
+}
+#description {
+  width:94%;
+}
+#description p {
+  margin:0 0 20px 0;
+}
+#map-download-link {
+  text-decoration:none;
+}
+#map-download-link img {
+  display:block;
+  margin-bottom:5px;
+}
+.pdf {
+  background:transparent url('/images/icon-pdf.png') 0 50% no-repeat;
+  color:#f60;
+  display:inline-block;
+  font-size:12px;
+  margin-top:5px;
+  padding-left:20px;
+  text-decoration:none;
+  width:auto;
+}
+.calendar {
+  margin:20px 0;
+}
+#performers em {
+  color:#f60;
+  display:block;
+  font:normal 20px/20px 'TradeGothic-Cn', 'Arial Narrow', sans-serif;
+  margin:10px 0;
+  text-transform:uppercase;
+}
+#performers em span {
+  color:#fff;
+  float:right;
+}
+
+.table .span12:first-child {
+  background-color:#000;
+}
+#table-content {
+  margin:15px;
+}
+#table-content ul:first-child {
+  float:left;
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+}
+#table-content ul:first-child li {
+  color:#f60;
+  cursor:pointer;
+  float:left;
+  line-height:50px;
+  padding:0 20px;
+}
+#table-content ul:first-child li.active {
+  background-color:#333;
+  color:#fff;
+  cursor:default;
+}
+#table-content table {
+  border:0;
+  border-collapse:separate;
+  clear:both;
+}
+tbody {
+  display:none;
+}
+tbody.active {
+  display:table-row-group;
+}
+html.lt-ie8 tbody.active {
+	display:block;
+}
+table th {
+  background-color:#333;
+  border:1px solid #333;
+  color:#ccc;
+  font-size:13px;
+  font-weight:normal;
+  padding:10px 15px;
+  width:130px;
+}
+table tr th:first-child {
+  width:82px;
+}
+table td {
+  background-color:#000;
+  border:1px solid #1f1f1f;
+  border-bottom:0;
+  border-top:0;
+  color:#ccc;
+  font-size:12px;
+  height:66px;
+  padding:12px;
+  vertical-align:top;
+}
+table .alt td {
+  background-color:#222;
+}
+table tr td:first-child {
+  border-left:0;
+  font-size:13px;
+  text-align:center;
+  text-transform:uppercase;
+  vertical-align:middle;
+}
+table tr td.last {
+  border-right:0;
+}
+td a {
+  color:#f60;
+  float:left;
+}
+td a.no-link {
+  color:#fff !important;
+  cursor:default;
+}
+td a span {
+  color:#fff;
+  display:block;
+}
+td img {
+  float:left;
+  margin-top:3px;
+}
+td em {
+  float:left;
+  font-style:normal;
+  margin-left:8px;
+  width:70px;
+}
+.toplink {
+  margin:20px 0;
+  text-align:right;
+}
+.toplink a {
+  background:transparent url('/images/action-arrow-up.png') 0 50% no-repeat;
+  color:#f60;
+  display:inline-block;
+  font-size:12px;
+  padding-left:15px;
+}
+#promos {
+  margin-top:30px;
+}
+#content #promos p {
+  color:#999;
+  font-size:12px;
+  line-height:16px;
+}
+#promos a.cta {
+  background:transparent url('/images/action_arrow_right.png') 100% 50% no-repeat;
+  color:#f60;
+  display:inline-block;
+  font-size:12px;
+  padding-right:11px;
+}
+/* overlay */
+#modal-wrap {
+  background:transparent url('/images/_entertainment/bg-overlay.gif') 0 0 repeat;
+  border-color:#131313;
+}
+.artist-details {
+  margin:0 auto;
+  width:586px;
+}
+.artist-details img {
+  height:357px;
+  width:586px;
+}
+.artist-details ul {
+  float:left;
+  list-style:none;
+  margin:20px 0;
+  padding:0;
+}
+.artist-details li {
+  border-left:1px solid #474747;
+  float:left;
+  padding:0 20px;
+  text-transform:uppercase;
+}
+.artist-details li a {
+  color:#f60;
+  font:normal 16px/16px 'TradeGothic-CnBold', 'Arial Narrow', sans-serif;
+}
+.artist-details li:first-child,
+.artist-details li.first {
+  border:0;
+  padding-left:0;
+}
